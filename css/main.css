@@ -38,6 +38,7 @@ h4 { font-size: 1.7em; }
 nav ul { font-size: 1.8em; font-family: 'Helvetica','Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #000000; background: #000000;padding:0;}
 footer ul { font-size: 1.5em; font-family: 'Helvetica','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #3a3737;  background: #131c21;}
 nav ul li, footer ul li { display: inline; margin-right: 30px; }
+nav ul li2, footer ul li2 { display: inline; margin-right: 0px; }
 
 footer { border-top: 3px solid #76b900; font-size: .8em; }
 
