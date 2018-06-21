@@ -45,7 +45,6 @@ title: Google Lat&Lng Search
 	/*
 	* 函数名：  geoEach()
 	* 功能：地名解析成经纬度,经纬度解析成地名
-	* 作者：yanue
 	* 使用方法：
 	  //初始化
 	  var geo = new  geoEach();
@@ -135,8 +134,8 @@ title: Google Lat&Lng Search
 		}
 	}
 </script>
-	<h1>双向查询地址</h1>
-			<button onclick="getLocation()">获得您的位置</button>
+	<h1>雙向查詢地址</h1>
+			<button onclick="getLocation()">獲取您的位置</button>
 	<p id="demo"></p>
 	<script>
 	var x = document.getElementById("demo");
@@ -144,27 +143,27 @@ title: Google Lat&Lng Search
 	    if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(showPosition, showError);
 	    } else { 
-		x.innerHTML = "您的浏览器不支持定位。";
+		x.innerHTML = "垃圾瀏覽器。";
 	    }
 	}
 
 	function showPosition(position) {
-	    x.innerHTML = "纬度: " + position.coords.latitude + 
-	    "<br>经度: " + position.coords.longitude;
+	    x.innerHTML = "緯度: " + position.coords.latitude + 
+	    "<br>經度: " + position.coords.longitude;
 	}
 	function showError(error) {
 	    switch(error.code) {
 		case error.PERMISSION_DENIED:
-		    x.innerHTML = "您没有开放定位权限。"
+		    x.innerHTML = "權限不夠。"
 		    break;
 		case error.POSITION_UNAVAILABLE:
-		    x.innerHTML = "定位信息不可用。"
+		    x.innerHTML = "不可用定位。"
 		    break;
 		case error.TIMEOUT:
-		    x.innerHTML = "时间溢出。"
+		    x.innerHTML = "時間溢出。"
 		    break;
 		case error.UNKNOWN_ERROR:
-		    x.innerHTML = "未知错误。。。"
+		    x.innerHTML = "未知錯誤。。。"
 		    break;
 	    }
 	}
@@ -184,18 +183,18 @@ title: Google Lat&Lng Search
 	})();
 	</script>
 	<h2>解析地名</h2>
-	<p>请从下面输入你要解析的地名（每个地名隔一行）<br />
-		输入完成后按‘解析地名’按钮<br /></p>
+	<p>輸入要解析的地名（每個地面隔一行距離）<br />
+	輸入後按按鈕<br /></p>
 	<textarea name="" id="addrs" cols="30" rows="5">Bayswater, London</textarea>
 	<br/>
 	<button id='toLatLngBtn'>解析地名</button>
 	<br />
-	<h2>解析经纬度</h2>
-	<p>请从下面输入你要解析的经纬度（每个经纬度隔一行）格式（纬度lat,经度lng）<br />
-		输入完成后按‘解析经纬度’按钮<br /></p>
+	<h2>解析經緯度</h2>
+	<p>輸入要解析的經緯度（每個地面隔一行距離）格式（緯度lat,經度lng）<br />
+		輸入後按按鈕<br /></p>
 	<textarea name="" id="latLngs" cols="30" rows="5">51.5134339, -0.18380100000001676</textarea>
 	<br/>
-	<button id='toAddressBtn'>解析经纬度</button>
+	<button id='toAddressBtn'>解析經緯度</button>
 	<br/>
 	<div id="map_canvas" style='width: 1000px; height:900px;'></div>
 	<div id="showResults"></div>
