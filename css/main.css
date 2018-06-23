@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body { margin: 60px auto; width: 75%;background: #000;}
 
 a { text-decoration: none; color: #c7bfbf; }
@@ -25,18 +26,18 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
 
 p.meta { color: #32aabd; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
-p { font-family: 'Helvetica','Microsoft YaHei UI','Cursive';}
+p { font-family: 'Helvetica','Noto Sans TC','Cursive';}
 audio { width: 190px; height: 32px; margin-top: 10px;}
 p.mus { font-size: 1.5em; line-height: 1.4em; color: #fff; }
 
-h1, h2, h3, h4 { font-family:'Helvetica', 'Microsoft YaHei UI'; color:#76b900;}
+h1, h2, h3, h4 { font-family:'Helvetica', 'Noto Sans TC'; color:#76b900;}
 h1 { font-size: 2.5em;  }
 h2 { font-size: 2.3em; }
 h3 { font-size: 2em; }
 h4 { font-size: 1.7em; }
 
-nav ul { font-size: 1.8em; font-family: 'Helvetica','Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #000000; background: #000000;padding:0;}
-footer ul { font-size: 1.5em; font-family: 'Helvetica','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #3a3737;  background: #131c21;}
+nav ul { font-size: 1.8em; font-family: 'Helvetica','Sans-Serif','Noto Sans TC';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #000000; background: #000000;padding:0;}
+footer ul { font-size: 1.5em; font-family: 'Helvetica','Noto Sans TC';  list-style: none; font-weight: normal; box-shadow: 0px 3px 3px #3a3737;  background: #131c21;}
 nav ul li, footer ul li { display: inline; margin-right: 30px; }
 nav ul li2, footer ul li2 { display: inline; margin-right: 0px; }
 
@@ -50,6 +51,6 @@ ul.posts li { list-style: none; }
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 2.5em; }
 .cv h2 { font-size: 2.3em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';color: #ffffff;  }
+.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Noto Sans TC';color: #ffffff;  }
 .cv address, .cv p { font-size: 1.3em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
