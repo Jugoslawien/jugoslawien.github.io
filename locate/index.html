@@ -5,7 +5,6 @@ title: Google Lat&Lng Search
 		<link rel="shortcut icon" type="image/ico" href="yugo.ico">
 		<div class="locate">
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByy2IyWRDB7rF-CUD1DaPWOPHQ68PMgf8&sensor=false&libraries=places" type="text/javascript"></script>
-<title>google map 经纬度批量在线查询工具 google map查询地名返回经纬度</title>
 <script type="text/javascript">
 	window.onload = function() {
 		var geo = new  geoEach();
@@ -56,12 +55,12 @@ title: Google Lat&Lng Search
 	function  geoEach() {
 		//初始化地图
 		 geoEach.map = new google.maps.Map(document.getElementById("map_canvas"),{
-					center : new google.maps.LatLng(51.5134339, -0.18380100000001676),
+					center : new google.maps.LatLng(25.1942462, 121.56093629999998),
 					zoom : 8,
 					mapTypeId : google.maps.MapTypeId.ROADMAP
 		});
 		//添加一个marker
-		 geoEach.marker = new google.maps.Marker({map:  geoEach.map,position: new google.maps.LatLng(51.5134339, -0.18380100000001676)});
+		 geoEach.marker = new google.maps.Marker({map:  geoEach.map,position: new google.maps.LatLng(25.1942462, 121.56093629999998)});
 		//实例化Geocoder服务
 		 geoEach.geocoder = new google.maps.Geocoder();
 	}
@@ -183,16 +182,16 @@ title: Google Lat&Lng Search
 	})();
 	</script>
 	<h2>解析地名</h2>
-	<p>輸入要解析的地名（每個地面隔一行距離）<br />
+	<p>輸入要解析的地名（每個地名隔一行距離）<br />
 	輸入後按按鈕<br /></p>
-	<textarea name="" id="addrs" cols="30" rows="5">Bayswater, London</textarea>
+	<textarea name="" id="addrs" cols="30" rows="5">Yangmingshan, Taipei</textarea>
 	<br/>
 	<button id='toLatLngBtn'>解析地名</button>
 	<br />
 	<h2>解析經緯度</h2>
-	<p>輸入要解析的經緯度（每個地面隔一行距離）格式（緯度lat,經度lng）<br />
+	<p>輸入要解析的經緯度（每個地名隔一行距離）格式（緯度lat,經度lng）<br />
 		輸入後按按鈕<br /></p>
-	<textarea name="" id="latLngs" cols="30" rows="5">51.5134339, -0.18380100000001676</textarea>
+	<textarea name="" id="latLngs" cols="30" rows="5">25.1942462, 121.56093629999998</textarea>
 	<br/>
 	<button id='toAddressBtn'>解析經緯度</button>
 	<br/>
