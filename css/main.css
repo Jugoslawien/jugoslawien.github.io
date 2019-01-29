@@ -55,3 +55,19 @@ ul.posts li { list-style: none; }
 .cv address, .cv .download { font-family: 'Open Sans', 'Arial', 'Sans-Serif','Noto Sans TC';color: #ffffff;  }
 .cv address, .cv p { font-size: 1.3em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
