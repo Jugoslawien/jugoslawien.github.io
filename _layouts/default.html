@@ -12,8 +12,11 @@ body {
   font-family: 'Open Sans',sans-serif;	
 }
 .topnav {
-  overflow: hidden;
-  background-color: #000;
+ overflow: hidden;
+ background-color: #000;
+ top: 0;
+ width: 100%;
+ position: fixed;
 }
 
 .topnav a {
@@ -40,6 +43,7 @@ body {
   display: none;
 }
 
+ 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
