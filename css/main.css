@@ -75,7 +75,7 @@ height: 100%;
 .topnav {
  overflow: hidden;
  background-color: #000;
- 
+ padding-top: 15px;
 }
 
 .topnav a {
