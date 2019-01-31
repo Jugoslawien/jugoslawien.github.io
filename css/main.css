@@ -116,7 +116,7 @@ height: 100%;
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 15px;
   }
 .topnav.responsive a {
     float: none;
