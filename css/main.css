@@ -91,6 +91,7 @@ height: 100%;
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  transition-duration: 0.4s;
 }
 
 .active {
