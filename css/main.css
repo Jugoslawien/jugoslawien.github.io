@@ -109,6 +109,7 @@ height: 100%;
   .topnav a.icon {
     float: right;
     display: block;
+    transition-duration: 0.4s;
   }
 }
 
